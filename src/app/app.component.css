@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'Damion';
+  src: url('../assets/fonts/damion.ttf'); /* IE9 Compat Modes */
+  src: url('../assets/fonts/damion.ttf') format('embedded-opentype'), /* IE6-IE8 */
+  url('../assets/fonts/damion.ttf') format('woff2'), /* Super Modern Browsers */
+  url('../assets/fonts/damion.ttf') format('woff'), /* Pretty Modern Browsers */
+  url('../assets/fonts/damion.ttf')  format('truetype'), /* Safari, Android, iOS */
+  url('../assets/fonts/damion.ttf') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Stuttgart';
+  src: url('../assets/fonts/stuttgart.ttf'); /* IE9 Compat Modes */
+  src: url('../assets/fonts/stuttgart.ttf') format('embedded-opentype'), /* IE6-IE8 */
+  url('../assets/fonts/stuttgart.ttf') format('woff2'), /* Super Modern Browsers */
+  url('../assets/fonts/stuttgart.ttf') format('woff'), /* Pretty Modern Browsers */
+  url('../assets/fonts/stuttgart.ttf')  format('truetype'), /* Safari, Android, iOS */
+  url('../assets/fonts/stuttgart.ttf') format('svg'); /* Legacy iOS */
+}
+
+.generate-btn {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.stuttgart-font {
+  font-family: 'Stuttgart' , Roboto ,sans-serif;
+  border: 1px solid lightblue;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.damion-font {
+  font-family: 'Damion' , Roboto ,sans-serif;
+  border: 1px solid lightblue;
+  border-radius: 10px;
+  padding: 20px;
+}
